@@ -1,30 +1,49 @@
-# Variables in python 
-a = 1
-str = 'Hello, World!'
-f = 1.2
-print("Integer: " , a)
-print("String: " , str)
-print("float: ", f)
-print("Hello, World!")
-print(type(a))
-print(type(str))
-print(type(f))
+# Operators
 
-# Taking Input - By default input function takes input as a string
-num = input("Enter the number: ")
-print("The Number is ", num)
-# To take specific input we can use of type casting
-int_input = int(input("Integer input"))
-float_input = float(input("Float input"))
-print(type(int_input))
-print(type(float_input))
+num1 = 10
+num2 = 12
 
-# Taking multiple input
-# using split method
-x, y = input("Enter two values: ").split()
-print("x -> ", x)
-print("y -> ", y)
-#using List comprehension
-u, v = [int(u) for u in input("Enter two values: ").split()]
-print("First number is: ", u)
-print("Second number is: ",)
+# Arithmetic Operators
+print("-----Arithmetic-----")
+print("num1 + num2 is ", num1 + num2)
+print("num1 - num2 is ", num1 - num2)
+print("num1 * num2 is ", num1 * num2)
+print("num1 / num2 is ", num1 / num2)
+print("num1 ** num2 is ", num1 ** num2)
+print("num1 // num2 is ", num1 // num2)
+print("num1 % num2 is ", num1 % num2)
+print("-----X-----")
+
+# Assignment Operators
+print("-----Assignment-----")
+a = 10
+a += 10
+print(a)
+a -= 10
+print(a)
+a *= 10
+print(a)
+a /= 10
+print(a)
+print("-----X-----")
+# Comparison Operators
+x = 10
+y = 11
+print("-----Comparison-----")
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+print(x == y)
+print("-----X-----")
+
+print("-----Logical-----")
+print(x == y and x > y)
+print(x < y or x > y)
+print(not(False))
+print(not(True))
+print("-----X-----")
+
+
+# Control Statements
+
